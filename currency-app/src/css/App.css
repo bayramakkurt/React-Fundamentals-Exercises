@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../assets/images/finance-wp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.app-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
