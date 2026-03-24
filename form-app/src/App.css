@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing:  border-box;
+  background-color: rgb(27, 26, 26);
+  color: white;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+form{
+  width: 500px;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(34, 33, 33);
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+}
+
+.input-div{
+  margin: 25px 0px;
+}
+
+.save-button{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(166, 255, 0);
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.checkbox-div{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.checkbox{
+  width: 20px;
+  height: 15px;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+.error{
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+}
